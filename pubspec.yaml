@@ -1,0 +1,28 @@
+name: name_image_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image: ^3.0.1  # Package for image manipulation
+  path_provider: ^2.0.11  # Package to find the correct path for file storage
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add assets here
+  assets:
+    - assets/sample_image.png
+
